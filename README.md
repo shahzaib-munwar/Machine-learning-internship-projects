@@ -1,8 +1,9 @@
 ML INTERNSHIP TASK 
 --
 ## ABOUT TASKS:
+  
   ## HEAR DISEASE PREDICTION:
-    This project is a web-based Diabetes Risk Predictor built using Gradio to provide an instant health risk assessment from a clean, interactive user interface. The system relies on a Random Forest Classifier to analyze eight health metrics—such as Glucose, BMI, and Age—calculating the exact probability of diabetes and classifying the outcome based on a 50% risk threshold.
+This project is a web-based Diabetes Risk Predictor built using Gradio to provide an instant health risk assessment from a clean, interactive user interface. The system relies on a Random Forest Classifier to analyze eight health metrics—such as Glucose, BMI, and Age—calculating the exact probability of diabetes and classifying the outcome based on a 50% risk threshold.
 
 To ensure fast deployment, the application first attempts to download a pre-trained model and a StandardScaler directly from a Hugging Face repository. However, if these external files are unavailable, the script includes a smart fallback mechanism that automatically trains a brand-new model from scratch in about five seconds using the classic Pima Indians Diabetes Dataset fetched from GitHub.
 
